@@ -1,28 +1,28 @@
 class Mcpctl < Formula
   desc "Magertron MCP Orchestrator CLI"
   homepage "https://magertron.com"
-  version "3.0.0"
+  version "3.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/magertron/orchestrator/releases/download/v#{version}/mcpctl-darwin-arm64"
-      sha256 "9ed225ffb7714a3fa99c2ae5e452065308e672aaae0e1e01f5091b241d167fc4"
+      sha256 "40251385a4ec68bd396ab652919c5fc4eefad19d976dd1dd06ceeae015db0c12"
     end
     on_intel do
       url "https://github.com/magertron/orchestrator/releases/download/v#{version}/mcpctl-darwin-amd64"
-      sha256 "3d2f47ce7171d52d6d30cb5465969b74ce0b65ee3999645d98ccd72241b36567"
+      sha256 "dd5168ad20b4e3e6ddfd13a6c784bb003fb8356a13a416fbd446922d863e0996"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/magertron/orchestrator/releases/download/v#{version}/mcpctl-linux-arm64"
-      sha256 "1938eb7b42b41fdf3e8e9e2fc6dae132c20b467fa5e2e1d17c9a63d86f0fc8e2"
+      sha256 "31adcd4989796d783a40b1de791c689e8c31ddd8d33b7c63264382bbc2495354"
     end
     on_intel do
       url "https://github.com/magertron/orchestrator/releases/download/v#{version}/mcpctl-linux-amd64"
-      sha256 "58b3f77a3dd1c5cc1a8901a3ba0cb278fb1412afd1f78487ff5d4ed0480e9870"
+      sha256 "816c0fcd503a333ceff8f4031aba1b00504d2fb7161e53cbb287881d4ad3e419"
     end
   end
 
